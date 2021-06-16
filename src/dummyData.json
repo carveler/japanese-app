@@ -1,0 +1,277 @@
+{
+  "menu": {
+    "appetizer": [
+      {
+        "id": "94321",
+        "name": "Gyoza (Japanese Pan-Fried Dumplings)",
+        "price": {
+          "currency": "euro",
+          "price": 4.0,
+          "priceName": "10"
+        },
+        "description": "Juicy on the inside, crispy and golden brown on the outside, these Japanese pan-fried dumplings, Gyoza, are popular weeknight meal as well as a great appetizer for your next dinner party.",
+        "images": "https://drive.google.com/thumbnail?id=1C_Y8daG4HX5deeNy-ySRLTYJd4SPPIe2",
+        "qty": 1,
+        "category": "appetizer"
+      },
+      {
+        "id": "94311",
+        "name": "Spicy Edamame",
+        "price": {
+          "currency": "euro",
+          "price": 4.0,
+          "priceName": "10"
+        },
+        "description": "Fiery and spicy edamame beans sautéed with chili paste, garlic, and miso. It’s intensely delicious. You won’t be able to stop eating these!",
+        "images": "https://drive.google.com/thumbnail?id=1hzxKCytgecau9C1SrzxSRKxG7jR6cVBP",
+        "qty": 1,
+        "category": "appetizer"
+      },
+      {
+        "id": "94312",
+        "name": "Yakitori: Chicken & Scallion Skewers (Negima)",
+        "price": {
+          "currency": "euro",
+          "price": 4.0,
+          "priceName": "10"
+        },
+        "description": "Glazed in a savory-sweet sauce, these Japanese chicken and scallion skewers are hard to resist! You’d love this simple yakitori recipe. It’s great for grilling outdoor or under the broiler.",
+        "images": "https://drive.google.com/thumbnail?id=1gh9BgSSyjKBSuynXE0kvqKUPKnyMQkG4",
+        "qty": 1,
+        "category": "appetizer"
+      },
+      {
+        "id": "94412",
+        "name": "Chawanmushi with Shrimp",
+        "price": {
+          "currency": "euro",
+          "price": 4.0,
+          "priceName": "10"
+        },
+        "description": "Chawanmushi (茶碗蒸し) is a savory egg custard dish which served as an appetizer in Japanese restaurants. It literary means ‘steamed in a tea bowl/cup’. Chawan in Japanese means tea bowl or bowl, and -Mushi means steamed.",
+        "images": "https://drive.google.com/thumbnail?id=16hm58t1KsTCT-ZqYbPc9qOljhZMBqhaO",
+        "qty": 1,
+        "category": "appetizer"
+      }
+    ],
+    "sushi": [
+      {
+        "id": "84312",
+        "name": "Nigiri",
+        "price": {
+          "currency": "euro",
+          "price": 6.0,
+          "priceName": "10"
+        },
+        "description": "Nigiri sushi is the type of sushi accompanied with either raw fish, tamago (egg), or sometimes a type of vegetable. Very rarely, you'll find this type of sushi made with a cut of meat rather than seafood. The majority of time it is paired with raw fish such as salmon or tuna. Sometimes the fish may also be cooked or seared for a different, bolder flavor.",
+        "images": "https://drive.google.com/thumbnail?id=1Ddc9RnOsTVgZXFlcld6kptOiJn59H-j5",
+        "qty": 1,
+        "category": "sushi"
+      },
+      {
+        "id": "84413",
+        "name": "Makizushi",
+        "price": {
+          "currency": "euro",
+          "price": 6.0,
+          "priceName": "10"
+        },
+        "description": "Makizushi, comes with various combinations (or just one ingredient, known as the hosomaki) of fish, vegetables, and sushi rice all rolled with a sheet of nori (seaweed). Known as the traditional sushi roll.",
+        "images": "https://drive.google.com/thumbnail?id=1uP3XPUINcVcmMnwaA0zzccGf6S6Whn97",
+        "qty": 1,
+        "category": "sushi"
+      },
+      {
+        "id": "84314",
+        "name": "Uramaki",
+        "price": {
+          "currency": "euro",
+          "price": 6.0,
+          "priceName": "10"
+        },
+        "description": "Uramaki is known as the 'inside-out' sushi. It is not your typical rolled sushi, as the rice is on the outside, with the nori wrapped around the filling. Interestingly, the uramaki originates from Los Angeles and it is not a surprise that this maki is the most popular type of sushi in America. Even if you are quite new to the Japanese food scene, you must have heard of the famous California roll.",
+        "images": "https://drive.google.com/thumbnail?id=1nJnMfcykWhTUBd48PSvScMWlbnu03RJP",
+        "qty": 1,
+        "category": "sushi"
+      },
+      {
+        "id": "84415",
+        "name": "Gunkan Maki",
+        "price": {
+          "currency": "euro",
+          "price": 6.0,
+          "priceName": "10"
+        },
+        "description": "Wrapped in seaweed. It gets its name, which translates to 'battleship', from its shape. Typical toppings include tobiko (flying fish roe), ikura (salmon roe), and uni (sea urchin). However, there are no limits to what you can top gunkan maki with.",
+        "images": "https://drive.google.com/thumbnail?id=1cSYcYykRpJGoijxsvyiePCG0O-do2RUs",
+        "qty": 1,
+        "category": "sushi"
+      },
+      {
+        "id": "84316",
+        "name": "Temarizushi",
+        "price": {
+          "currency": "euro",
+          "price": 6.0,
+          "priceName": "10"
+        },
+        "description": "Temari directly translates into 'hand ball' in English. Temari is a traditional Japanese toy, an embroidered ball that people used to play with. However, nowadays the temari ball is more of a decorative ornament than ball game. Temarizushi is like a smaller, cuter form of nigiri sushi, and is normally topped with raw fish.",
+        "images": "https://drive.google.com/thumbnail?id=1caUqEeVfR04hi0KvUOrNT9C1CRXnUDnK",
+        "qty": 1,
+        "category": "sushi"
+      },
+      {
+        "id": "84417",
+        "name": "Inarizushi",
+        "price": {
+          "currency": "euro",
+          "price": 6.0,
+          "priceName": "10"
+        },
+        "description": "It is comprised of sushi rice in a pocket of aburaage (thin, deep-fried tofu). Rather than the savory sushi, the inarizushi is quite sweet, though it is not regarded as a dessert in Japan.",
+        "images": "https://drive.google.com/thumbnail?id=14-KwxzMwa0Xh5PnyWATY_Q9ABtQ_GHJy",
+        "qty": 1,
+        "category": "sushi"
+      }
+    ],
+    "hot-dishes": [
+      {
+        "id": "74313",
+        "name": "Ramen",
+        "price": {
+          "currency": "euro",
+          "price": 8.0,
+          "priceName": "10"
+        },
+        "description": "Ramen is a noodle soup dish consisting of wheat noodles (also known as 'ramen noodles'), a savoury broth (soy sauce, salt, miso, and tonkotsu pork bone are the four main ramen broth bases) and toppings of meat, protein, and/or vegetables such as sliced pork, nori seaweed, spring onions, bamboo shoots, and others.",
+        "images": "https://drive.google.com/thumbnail?id=1L6N307NBJRnwGEeU49So-SKvZYUvxNxn",
+        "qty": 1,
+        "category": "hot-dishes"
+      },
+      {
+        "id": "743137",
+        "name": "Miso Soup",
+        "price": {
+          "currency": "euro",
+          "price": 8.0,
+          "priceName": "10"
+        },
+        "description": "Made from a combination of miso paste (a traditional Japanese food made from fermented soy beans) and dashi broth, miso soup is served as a side dish with traditional Japanese-style breakfasts, lunches and dinners. The complex savoury flavours of the soup help to enhance the umami of the main dishes with which it is served.",
+        "images": "https://drive.google.com/thumbnail?id=1J958cs_bmU44taneSKHg29MpwEpu6Bew",
+        "qty": 1,
+        "category": "hot-dishes"
+      },
+      {
+        "id": "74314",
+        "name": "Nikujaga",
+        "price": {
+          "currency": "euro",
+          "price": 8.0,
+          "priceName": "10"
+        },
+        "description": "A flavoursome savoury dish of meat, potatoes and assorted vegetables simmered in soy sauce, sake, mirin and sugar, Nikujaga meat and potato stew is one of a collection of Japanese dishes called 'nimono' (meaning ‘simmered things’).",
+        "images": "https://drive.google.com/thumbnail?id=1FWvXEk_YEg-hy2q-S6IIK81L14d67Cyt",
+        "qty": 1,
+        "category": "hot-dishes"
+      },
+      {
+        "id": "743138",
+        "name": "Sukiyaki",
+        "price": {
+          "currency": "euro",
+          "price": 8.0,
+          "priceName": "10"
+        },
+        "description": "It is a Japanese nabemono hot pot dish most commonly enjoyed during the winter. Sukiyaki hot pots are prepared by searing beef slices in the hot pot, then adding sukiyaki broth (normally made from soy sauce, sake, mirin rice wine and sugar) and different vegetables, noodles, and proteins. The name ‘sukiyaki’ means ‘cook what you like’, and the joy of sukiyaki comes from being able to prepare the dish with your fellow diners, at the table, using whatever ingredients you desire.",
+        "images": "https://drive.google.com/thumbnail?id=1lTNK0di4wDfiW_wh0M_OKhrn6eBV3BJg",
+        "qty": 1,
+        "category": "hot-dishes"
+      }
+    ],
+    "desserts": [
+      {
+        "id": "64314",
+        "name": "Mochi Ice Cream",
+        "price": {
+          "currency": "euro",
+          "price": 4.0,
+          "priceName": "10"
+        },
+        "description": "Mochi ice cream is a small, round confection consisting of a soft, pounded sticky rice dumpling (mochi) formed around an ice cream filling. The ice cream flavors the confection while the mochi adds sweetness and texture. The traditional ice cream flavors used are vanilla, chocolate and strawberry. Other flavors, such as Kona coffee, plum wine, green tea, and red bean, are also widely used. It is also dusted with either potato or cornstarch to keep it from sticking while being formed and handled.",
+        "images": "https://drive.google.com/thumbnail?id=1-8ajDgYe7s_cj5qeNxv0VLzkq84JcPhT",
+        "qty": 1,
+        "category": "desserts"
+      },
+      {
+        "id": "64315",
+        "name": "Nerikiri",
+        "price": {
+          "currency": "euro",
+          "price": 4.0,
+          "priceName": "10"
+        },
+        "description": "Nerikiri is a Japanese wagashi that should reflect the season it's being served in. The most popular shape is that of a cherry blossom, called sakura nerikiri, and it can be bought only in spring. It is traditionally made with sweetened white bean paste and glutinous rice flour.",
+        "images": "https://drive.google.com/thumbnail?id=1K9pTua1ljRsrQYM8l7gZRtslcJNzno2T",
+        "qty": 1,
+        "category": "desserts"
+      }
+    ],
+    "drinks": [
+      {
+        "id": "54315",
+        "name": "Ryokucha",
+        "price": {
+          "currency": "euro",
+          "price": 2.0,
+          "priceName": "10"
+        },
+        "description": "Toasted brown rice is blended with steamed green tea and stone-ground matcha green tea powder to make an extremely full-bodied, deep, creamy and sweet Japanese everyday green tea with extra caffeine. The toasted rice imparts sweet nuttiness, while the steamed sencha lends clean vegetal notes. This is a great introduction to Japanese green tea that’s easy to brew and pairs well with any meal.",
+        "images": "https://drive.google.com/thumbnail?id=1yWWh-WVrNYZRZUDGJKHDNiKCj26xf_Pd",
+        "qty": 1,
+        "category": "drinks",
+        "sizes": ["small", "large"]
+      },
+      {
+        "id": "54316",
+        "name": "Shochu",
+        "price": {
+          "currency": "euro",
+          "price": 2.0,
+          "priceName": "10"
+        },
+        "description": "Shochu is a Japanese alcoholic beverage distilled typically from sweet potatoes, barley, buckwheat, brown sugar or rice.",
+        "images": "https://drive.google.com/thumbnail?id=1OcYK1eCdBLfNEvx0F2va_Cb4uSLxR4IS",
+        "qty": 1,
+        "category": "drinks",
+        "sizes": ["small", "large"]
+      },
+      {
+        "id": "54317",
+        "name": "Qoo",
+        "price": {
+          "currency": "euro",
+          "price": 2.0,
+          "priceName": "10"
+        },
+        "description": "Qoo (クー, Kū) is a non-carbonated beverage and it is originally introduced in Japan on May 28, 1999 in the Kyushu region. It is available in a variety of flavors including grape and orange.",
+        "images": "https://drive.google.com/thumbnail?id=1yH0zyaRkoa-ckV5A9sjvYGiz7zLzmHZk",
+        "qty": 1,
+        "category": "drinks",
+        "sizes": ["small", "large"]
+      },
+      {
+        "id": "54318",
+        "name": "Soft Drinks",
+        "price": {
+          "currency": "euro",
+          "price": 2.0,
+          "priceName": "10"
+        },
+        "qty": 1,
+        "images": "https://drive.google.com/thumbnail?id=1PnTriQlzeYoFMz8KdmzoJGXe6y4yCCGv",
+        "category": "drinks",
+        "sizes": ["small", "large"]
+      }
+    ]
+  }
+}

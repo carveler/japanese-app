@@ -1,0 +1,166 @@
+a {
+  color: inherit;
+}
+
+.heroImage {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  .heroContents {
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: .1rem .1rem $black;
+    h1 {
+      font-size: 3.5rem;
+    }
+    p {
+      font-size: 2rem;
+      padding: 3rem;
+    }
+  }
+}
+////////////////////////////////////////////////
+
+.restaurant_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6.6vmax;
+  padding-bottom: 6.6vmax;
+  .restaurant_info_text {
+    width: 50%;
+    h2 {
+      margin: 2rem 0;
+      text-align: center;
+      font-size: 2.8rem;
+    }
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
+////////////////////////////////////////////////
+
+.take_away {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .content_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    h1 {
+      color: $primary;
+      text-shadow: .1rem .1rem $black;
+      font-size: 3.5rem;
+    }
+    p {
+      color: $primary;
+      text-shadow: .1rem .1rem $black;
+      font-size: 2rem;
+    }
+    button {
+      color: $primary;
+      text-shadow: .1rem .1rem $black;
+      border-color: $primary;
+      background: transparent;
+      padding: 1rem;
+      margin: 4rem;
+      border-radius: 3rem;
+    }
+  }
+}
+////////////////////////////////////////////////
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  .menu_card_container {
+    @include flexy($just: space-around, $aligni: space-around)
+    .menu_card {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .content_wrap {
+        .image_wrap {
+          img {
+            width: 300px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+          }
+        }
+        .text_container {
+          margin: 1rem;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+  button {
+    text-align: center;
+    color: $secondary;
+    border-color: $secondary;
+    background: transparent;
+    padding: 1rem;
+    border-radius: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+////////////////////////////////////////////////
+
+.location_img {
+  width: 100%;
+  height: 700px;
+  @include flexy($just: center, $aligni: center);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .content_wrap {
+    padding: 1rem;
+    h1 {
+      color: $primary;
+      text-shadow: .1rem .1rem $black;
+      font-size: 3.4rem;
+    }
+  }
+}
+
+.location_card_container {
+  @include flexy($just: center);
+  .loaction_card {
+    @include flexy($just: center, $aligni: center,
+    $dir: column);
+    border: 1px solid $secondary;
+    padding: 1rem;
+    margin: 1rem;
+    .content_wrap {
+      padding: 1rem;
+    }
+  }
+}

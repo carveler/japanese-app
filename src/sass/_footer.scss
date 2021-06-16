@@ -1,0 +1,37 @@
+footer {
+  background-color: $accent;
+  color: white;
+  height: 100vh;
+  @include flexy($just: center, $aligni: space-around,
+    $dir: column);
+
+  .locations {
+    padding-top: 8rem;
+    @include flexy($just: center, $aligni: center, $dir: column);
+    @include breakpoint(medium) {
+      @include flexy($just: space-around, $aligni: center, $dir: row);
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .icons {
+    width: 100%;
+    @include flexy($just: center, $aligni: center);
+    margin-top: 7rem;
+
+    .icon {
+      padding: 5px;
+    }
+    @include breakpoint(medium) {
+      padding-top: 5rem;
+    }
+  }
+
+  .reserved {
+    @include flexy($just: center, $aligni: center);
+    bottom: auto;
+  }
+}

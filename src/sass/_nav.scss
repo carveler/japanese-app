@@ -1,0 +1,194 @@
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    background-color: $secondary;
+    padding: $global-padding;
+    @include flexy($aligni: center);
+
+    @include breakpoint(medium) {
+        position: relative;
+        @include flexy($aligni: center);
+        height: 4vh;
+    }
+
+    .hamburgerToggle {
+        flex: 1;
+        width: 1.2rem;
+        padding: .3rem;
+        z-index: 20;
+        position: absolute;
+        left: 1rem;
+        top: 1.5rem;
+        @include flexy($dir: column);
+        cursor: pointer;
+
+        span {
+            width: 1rem;
+            border-bottom: .2rem solid $accent;
+            margin-bottom: .05rem;
+            padding: .1rem;
+        }
+    }
+
+    .nav-links {
+        left: -16px;
+        top: 0;
+        height: 100vh;
+        width: 30vw;
+        background-color: $secondary;
+        position: absolute;
+        @include flexy($just: center,
+            $dir: column,
+            $aligni: center);
+        padding: $global-padding;
+        z-index: 2;
+
+        @include breakpoint(medium) {
+            position: static;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding-right: 0;
+            height: 100%;
+            width: 90%;
+        }
+
+        .nav-link {
+            width: 25vw;
+            background-color: $accent;
+            margin: $global-margin;
+            padding: $global-padding;
+            border-radius: $global-border-radius;
+            text-align: center;
+
+            @include breakpoint(medium) {
+                @include flexy($aligni: center, $just: center);
+                background-color: $secondary;
+                margin: 0;
+                height: 2vh;
+                width: 4.5rem;
+
+                a {
+                    transition: 400ms;
+                    &:hover {
+                        color: $accent;
+                    }
+                }
+            }
+
+            @include breakpoint(large) {
+                width: 5rem;
+            }
+        }
+    }
+
+    .logo {
+        width: 100%;
+        position: relative;
+        @include flexy($just: center, $aligni: center, );
+
+        img {
+            width: 3rem;
+
+            @include breakpoint(medium) {
+                left: 0;
+                z-index: 2;
+                width: 6rem;
+            }
+        }
+
+        @include breakpoint(medium) {
+            position: absolute;
+            left: 2rem;
+            z-index: 2;
+            width: 6rem;
+        }
+
+    }
+
+    .basket-icon {
+        width: 100%;
+        height: 3rem;
+        position: absolute;
+        right: 1rem;
+        @include flexy($just: flex-end, $aligni: center);
+
+        @include breakpoint(medium) {
+            width: 9rem;
+            position: static;
+            height: 2rem;
+        }
+
+        .nav-link {
+
+            // width: 100%;
+            @include breakpoint(medium) {
+                text-align: center;
+                // width: 6rem;
+                a {
+                    transition: 400ms;
+                    &:hover {
+                        color: $accent;
+                    }
+                }
+            }
+
+            a {
+                width: 6rem;
+                padding: $global-padding;
+            }
+        }
+    }
+
+    a {
+        color: $primary;
+        text-decoration: none;
+    }
+}
+
+.initialClose {
+    transform: translateX(-500px);
+}
+
+.close {
+    animation: slideOut 400ms ease forwards;
+}
+
+.open {
+    animation: slideIn 400ms ease forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+}
