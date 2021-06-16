@@ -1,6 +1,6 @@
 # japanese-app
 
-#[Demo](https://japanese-app.vercel.app/)
+##[Demo](https://japanese-app.vercel.app/)
 
 Responsive Japanese Restaurant Homepage with Takeaway cart function 
 
