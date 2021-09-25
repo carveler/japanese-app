@@ -1,5 +1,7 @@
 # japanese-app
 
+<img src="/satsuki.gif" alt="restaurant" width="500px" />
+
 [Demo](https://japanese-app.vercel.app/)
 
 Responsive Japanese Restaurant Homepage with Takeaway cart function 
