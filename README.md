@@ -11,6 +11,12 @@ Deployed on Vercel
 
 <img src="/cart2.gif" alt="restaurant" width="500px" />
 
+mobile
+
+
+<img src="/mobile.gif" alt="restaurant" width="500px" />
+
+
 ## Tech & tools
 
 - React (Hooks API)
