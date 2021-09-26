@@ -7,6 +7,8 @@ Deployed on Vercel
 
 <img src="/satsuki.gif" alt="restaurant" width="500px" />
 
+<img src="/cart2.gif" alt="restaurant" width="500px" />
+
 ## Tech & tools
 
 - React (Hooks API)
