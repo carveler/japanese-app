@@ -3,7 +3,7 @@
 Deployed on Vercel
 =>[Demo](https://japanese-app.vercel.app/)
 
-## Look & Feel
+## GIF
 
 <img src="/satsuki.gif" alt="restaurant" width="500px" />
 
