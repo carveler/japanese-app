@@ -1,15 +1,18 @@
-# japanese-app
+# japanese-restaurant Responsive Japanese Restaurant Homepage with Takeaway cart function 
 
 [Demo](https://japanese-app.vercel.app/)
 
+## Look & Feel
 
 <img src="/satsuki.gif" alt="restaurant" width="500px" />
 
+## Tech & tools
 
-Responsive Japanese Restaurant Homepage with Takeaway cart function 
+- React (Hooks API)
+- Redux
+- React Router
+- Sass
+- Material UI
 
-Team project with 2 other classmate.
-
-Technologies: HTML/CSS/SCSS/React/Redux/Material UI
 
 
